@@ -1,16 +1,5 @@
 # ETL Project : Youtube-data-pipeline
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Project Overview](#project-overview)
-3. [Tools Used](#tools-used)
-4. [Project Steps](#project-steps)
-   - [Step 1: Web Scraping](#step-1-web-scraping)
-   - [Step 2: CSV File Creation](#step-2-csv-file-creation)
-   - [Step 3: Load Data to Snowflake Data Warehouse](#step-3-load-data-to-snowflake-data-warehouse)
-   - [Step 4: Reporting with Power BI](#step-4-reporting-with-power-bi)
-5. [Acknowledgment](#acknowledgment)
-6. [Contacts](#contacts)
 
 ## Introduction
 This `README` document provides an overview of an `ETL` (Extract, Transform, Load) project developed to extract data from a `YouTube` channel using the YouTube API and `Python`, perform data transformations with the `Pandas` library, export the transformed data to a CSV file, load the data into `Snowflake` data warehouse, and create a reporting dashboard using `Power BI`.
@@ -47,20 +36,3 @@ Here is the workflow (data pipeline) of  this project
 
 ![Texte alternatif de l'image](images/dash.png)
 
-
-## Acknowledgment
-I would like to express our gratitude to the following resources for their valuable contributions to this project:
-
-The official documentation of `Python` language and `Pandas` library.
-
-The documentation provided by `YouTube API` for configuring and working with the YouTube API.
-
-The `snowflake` documentation, which aided in loaded the data into  data warehouse.
-
-
-
-## Contacts
-For any questions or inquiries related to this project, please feel free to contact me :)
-
-- linkedin : <a href="https://www.linkedin.com/in/aymane-maghouti/" target="_blank">Aymane Maghouti</a><br>
-- Email: `aymanemaghouti@gmail.com`
